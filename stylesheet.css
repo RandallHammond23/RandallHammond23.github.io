@@ -1,0 +1,21 @@
+body{
+    background-image: url("computers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.navbar{
+    padding: 5px;
+    margin: 0;
+    border: 45px;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    text-align: center;
+}
+.navbar a{
+    text-decoration: none;
+    width: 12x;
+    padding: 10px;
+    
+}
