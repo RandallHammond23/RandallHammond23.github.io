@@ -28,11 +28,17 @@ body{
     width: 250px;
     height: 325px;
     padding: 10px;
-    margin: 200px;
+    margin: 100px;
     text-align: left;
 
 }
 .whitebox h1{
     text-align: center;
 }
-
+.div{
+    position: relative;
+   margin: 15px; 
+    padding-left: 10px;
+   
+   
+}
