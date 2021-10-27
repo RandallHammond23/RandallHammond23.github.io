@@ -2,6 +2,7 @@ body{
     background-image: url("computers.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-size: 1600px;
     
 }
 .navbar{
@@ -19,3 +20,19 @@ body{
     padding: 10px;
     
 }
+
+.whitebox{
+    position: absolute;
+    background-color:#5c5b5e;
+    color: black;
+    width: 250px;
+    height: 325px;
+    padding: 10px;
+    margin: 200px;
+    text-align: left;
+
+}
+.whitebox h1{
+    text-align: center;
+}
+
