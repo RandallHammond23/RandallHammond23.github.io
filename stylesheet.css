@@ -1,44 +1,54 @@
 body{
-    background-image: url("computers.jpg");
+    background-image: url("./pictures/computers.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-size: 1600px;
-    
+    background-size: 1700px;    
+    display: grid;
+    place-content: center;
 }
 .navbar{
-    padding: 5px;
-    margin: 0;
-    border: 45px;
-    background-color: white;
+    
+    margin-bottom: 250px;
+    border: 0px;
+    background-color:#c3bbaf;
     color: black;
     display: inline-block;
     text-align: center;
+    font-size: 25px;
+    width: 71.8%;
 }
 .navbar a{
+    background-color: #c3bbaf;
     text-decoration: none;
-    width: 12x;
+    width: 40x;
     padding: 10px;
     
 }
 
 .whitebox{
-    position: absolute;
     background-color:#5c5b5e;
     color: black;
-    width: 250px;
-    height: 325px;
-    padding: 10px;
-    margin: 100px;
+    width: 300px;
+    height: 350px;
     text-align: left;
+    font-family: sans-serif;
+    place-content: center;
+    display: grid;
+    
 
 }
 .whitebox h1{
     text-align: center;
 }
-.div{
-    position: relative;
-   margin: 15px; 
-    padding-left: 10px;
+.box{
+    text-align: center;
+    margin: 5px;
+    place-content: center;
+    display: grid;
    
-   
+}
+
+.grid-1x2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
