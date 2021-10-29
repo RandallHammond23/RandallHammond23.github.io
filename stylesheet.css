@@ -56,4 +56,38 @@ body{
 .all-cards{
     display: grid;
    grid-template-columns: 1fr 1fr 1fr ;
+   justify-content: space-evenly;
+   
+}
+.card{
+    width: 45%;
+    height: 50%;
+}
+.card1{
+    width: 70%;
+}
+.card2{
+    width: 80%;
+}
+.card3{
+    width: 50%;
+    height: 10%;
+}
+.card-body{
+    background-color: white;
+}
+.whitebox2{
+    display: grid;
+    place-content: center;
+    background-color: #8f8d89;
+    font-size: 61px;
+}
+.homepage{
+    display: grid;
+    place-content: center;
+}
+.img-holder{
+    display: grid;
+    place-content: center
+    ;
 }
